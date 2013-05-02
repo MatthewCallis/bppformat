@@ -1,0 +1,559 @@
+TSimpleFormat
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist ../../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist
+cCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormatScripting.o /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat-46F6489DD070C56A.o /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/MacOS/SimpleFormat normal x86_64
+cRez /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormat-A69F02213383561.rsrc ../common/SimpleFormat.r
+cRez /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormatUI.rsrc SimpleFormatUI.r
+cRez /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc ../../photoshopsdk/pluginsdk/samplecode/common/resources/PIUtilities.r
+cResMergerCollector /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/SimpleFormat.rsrc
+cResMergerProduct /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Resources/SimpleFormat.rsrc
+cTouch /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin
+
+N../../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist
+c000000004F9040630000000000000254
+t1334853731
+s596
+
+N../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c00000000516D94C500000000000000CC
+t1366136005
+s204
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c000000005143635000000000023F11B0
+t1363370832
+s37687728
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005010290E00000000000069F0
+t1343236366
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005010290E0000000000006730
+t1343236366
+s26416
+
+N/Users/matthew/workspace/simpleformat/common/SimpleFormat.h
+c000000004F9040620000000000000C91
+t1334853730
+s3217
+
+N/Users/matthew/workspace/simpleformat/mac/../../../common/resources/PIUtilities.r
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/includes/MachOMacrezXcode.h
+c000000004F90406300000000000001F6
+t1334853731
+s502
+
+N/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/resources/PIUtilities.r
+c000000004F9040630000000000001F2C
+t1334853731
+s7980
+
+N/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp
+c000000004F9040630000000000000689
+t1334853731
+s1673
+
+N/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp
+c000000004F9040630000000000000611
+t1334853731
+s1553
+
+N/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp
+c000000004F9040630000000000000F3B
+t1334853731
+s3899
+
+N/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp
+c000000004F9040630000000000000D3B
+t1334853731
+s3387
+
+N/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp
+c000000004F9040630000000000014D77
+t1334853731
+s85367
+
+N/Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cpp
+c000000004F904062000000000000942C
+t1334853730
+s37932
+
+N/Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.r
+c000000004F9040620000000000001982
+t1334853730
+s6530
+
+N/Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp
+c000000004F9040620000000000001DD5
+t1334853730
+s7637
+i"SimpleFormat.h"
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat-46F6489DD070C56A.o
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat.LinkFileList
+c00000000518157EF0000000000000452
+t1367431151
+s1106
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormatScripting.o
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormat-A69F02213383561.rsrc
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormatUI.rsrc
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/SimpleFormat.rsrc
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/StaticAnalyzer/simpleformat/SimpleFormat/normal/x86_64/DialogUtilitiesMac.plist
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/StaticAnalyzer/simpleformat/SimpleFormat/normal/x86_64/FileUtilities.plist
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/StaticAnalyzer/simpleformat/SimpleFormat/normal/x86_64/FileUtilitiesMac.plist
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/StaticAnalyzer/simpleformat/SimpleFormat/normal/x86_64/PIUSuites.plist
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/StaticAnalyzer/simpleformat/SimpleFormat/normal/x86_64/PIUtilities-43B5ABE741B7C5E.plist
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/StaticAnalyzer/simpleformat/SimpleFormat/normal/x86_64/SimpleFormat-46F6489DD070C56A.plist
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/StaticAnalyzer/simpleformat/SimpleFormat/normal/x86_64/SimpleFormatScripting.plist
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/MacOS/SimpleFormat
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/PkgInfo
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Resources/SimpleFormat.rsrc
+t2
+s0
+
+N/Users/matthew/workspace/simpleformat/mac/SimpleFormatUI.r
+c000000004F904062000000000000032B
+t1334853730
+s811
+
+CAnalyze /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp
+r0
+
+CAnalyze /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp
+r0
+
+CAnalyze /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp
+r0
+
+CAnalyze /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp
+r0
+
+CAnalyze /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp
+r0
+
+CAnalyze /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cpp
+r0
+
+CAnalyze /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cpp
+r0
+
+CBuild AST from /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesaaf1ce6f8f31b741^9cfddd6f8f31b741^---0#1#0#--18"Check dependencies36"22FCEBE9-264D-4601-AE0E-CE3764F142B7-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o /Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123908.119492
+e389123908.230310
+r0
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o
+x/Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp69fc1e448f31b741^11fd3a448f31b741^-161"clang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp'clang: error: no input files-0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp000000000080d041^2715"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o ../../../common/sources/DialogUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.dia -c /Users/matthew/workspace/simpleformat/mac/../../../common/sources/DialogUtilitiesMac.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o36"6ADBD440-5BF2-4C7F-99B3-0953051F99DE-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123951.887087
+e389123953.195051
+r1
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o
+x/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp5abce46f8f31b741^84f331718f31b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp0000000000000000^2777"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o ../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.dia -c /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/DialogUtilitiesMac.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/DialogUtilitiesMac.o36"84D2494B-6018-4516-B17C-14D0031612AA-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o /Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123908.119512
+e389123908.230283
+r0
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o
+x/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cpp'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cppe3fb1e448f31b741^7ffb3a448f31b741^-156"clang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cpp'clang: error: no input files-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cpp000000000080d041^2685"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o ../../../common/sources/FileUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.dia -c /Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilities.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o36"071C1749-150E-4318-83C1-215DC2424FC2-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123951.887103
+e389123953.195056
+r1
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o
+x/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cppcbbde46f8f31b741^5af531718f31b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp0000000000000000^2747"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o ../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.dia -c /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilities.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilities.o36"A074BDDE-EDBF-4534-AA00-43BC54E5F9D5-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o /Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123908.119433
+e389123908.230270
+r0
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o
+x/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cpp'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cppf0fc1e448f31b741^5ef73a448f31b741^-159"clang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cpp'clang: error: no input files-0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cpp000000000080d041^2703"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o ../../../common/sources/FileUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.dia -c /Users/matthew/workspace/simpleformat/mac/../../../common/sources/FileUtilitiesMac.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o36"E49FFABF-7D93-4C73-A173-6562ABE294D7-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123951.887100
+e389123953.195037
+r1
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o
+x/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cppb03de36f8f31b741^57ee31718f31b741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp0000000000000000^2765"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o ../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.dia -c /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/FileUtilitiesMac.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/FileUtilitiesMac.o36"FDA2DEFD-B217-4158-B947-850390BC5562-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o /Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123908.119397
+e389123908.129207
+r0
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o
+x/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp6efb1e448f31b741^5f0c21448f31b741^-277"clang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-389123908#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@95"file://localhost/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp000000000080d041^2661"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o ../../../common/sources/PIUSuites.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.dia -c /Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUSuites.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o36"3BA56ECB-874C-4BB2-B108-EE370E327BE1-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123951.887031
+e389123953.230787
+r1
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o
+x/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp9a3ee36f8f31b741^12143b718f31b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp0000000000000000^2723"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o ../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.dia -c /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUSuites.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUSuites.o36"C7A153AF-E773-41BA-9A54-C679FA3951C8-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o /Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123908.119408
+e389123908.129285
+r0
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o
+x/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cpp'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cppc6fa1e448f31b741^9a0a21448f31b741^-279"clang: error: no such file or directory: '/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cpp'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-389123908#18446744073709551615#0#-2#--20"Clang LLVM 1.0 Error--0#0#0#-19%DVTDocumentLocation3@97"file://localhost/Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cpp000000000080d041^2737"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o ../../../common/sources/PIUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.dia -c /Users/matthew/workspace/simpleformat/mac/../../../common/sources/PIUtilities.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o36"F6C31C5B-E98E-4408-8DBA-44B1442F039D-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123951.887169
+e389123953.274892
+r1
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o
+x/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cppaebce46f8f31b741^525f46718f31b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp0000000000000000^2799"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o ../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.dia -c /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/sources/PIUtilities.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/PIUtilities-43B5ABE741B7C5E.o36"3512C48A-CA18-4C78-BAC9-F0C59A7CA61E-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat-46F6489DD070C56A.o /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123951.887025
+e389123953.294033
+r1
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat-46F6489DD070C56A.o
+x/Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cppe8bee46f8f31b741^e1454b718f31b741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cpp0000000000000000^2719"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat-46F6489DD070C56A.o ../common/SimpleFormat.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat-46F6489DD070C56A.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat-46F6489DD070C56A.dia -c /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat-46F6489DD070C56A.o36"03344A7F-AEFD-4706-83E5-B72B964D3CC2-
+
+CCompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormatScripting.o /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389123951.887019
+e389123953.265351
+r1
+xCompileC
+xOutput/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormatScripting.o
+x/Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp66bde46f8f31b741^4eee43718f31b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp0000000000000000^2705"CompileC Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormatScripting.o ../common/SimpleFormatScripting.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matthew/workspace/simpleformat/mac    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/SimpleFormat.hmap -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources/x86_64 -I/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/DerivedSources -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -MMD -MT dependencies -MF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormatScripting.d --serialize-diagnostics /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormatScripting.dia -c /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormatScripting.cpp -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormatScripting.o36"FE2F21A2-E04E-428F-BE9E-DBE1FD3E8954-
+
+CLd /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/MacOS/SimpleFormat normal x86_64
+s389123953.300472
+e389123953.517771
+r1
+xLd
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/MacOS/SimpleFormat
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/MacOS/SimpleFormat1afd4c718f31b741^938c84718f31b741^---0#0#0#--908"Ld Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/MacOS/SimpleFormat normal x86_64    cd /Users/matthew/workspace/simpleformat/mac    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -L/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -F/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -filelist /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/Objects-normal/x86_64/SimpleFormat.LinkFileList -mmacosx-version-min=10.7 -framework Carbon -framework Cocoa -framework AppKit -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/MacOS/SimpleFormat36"A4B2718D-8C9C-4886-9C12-7651CEEACA51-
+
+CProcessInfoPlistFile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist ../../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist
+s389123951.870544
+e389123951.877268
+r1
+xProcessInfoPlistFile
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist
+x../../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Process ../../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist1adbdf6f8f31b741^789ae06f8f31b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist0000000000000000^558"ProcessInfoPlistFile Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist ../../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist    cd /Users/matthew/workspace/simpleformat/mac    builtin-infoPlistUtility ../../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist -genpkginfo /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist36"4926C3CA-1C44-413E-93DB-855894454C0D-
+
+CProcessInfoPlistFile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist ../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist
+s389123757.495772
+e389123757.500697
+r0
+xProcessInfoPlistFile
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist
+x../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Process ../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist191e7fad8e31b741^703f80ad8e31b741^-219"error: could not read data from '/Users/matthew/workspace/simpleformat/mac/../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist': The file “Info.plist” couldn’t be opened because there is no such file.1(21%IDEActivityLogMessage2@212"could not read data from '/Users/matthew/workspace/simpleformat/mac/../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist': The file “Info.plist” couldn’t be opened because there is no such file.-389123757#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#24"Info.plist Utility Error--0#0#0#-19%DVTDocumentLocation4@122"file://localhost/Users/matthew/workspace/simpleformat/mac/../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist000000000080d041^552"ProcessInfoPlistFile Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist ../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist    cd /Users/matthew/workspace/simpleformat/mac    builtin-infoPlistUtility ../photoshopsdk/pluginsdk/samplecode/common/resources/Info.plist -genpkginfo /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Info.plist36"50D56CC7-6C93-4E09-94C2-D2AAA639B7D4-
+
+CResMergerCollector /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/SimpleFormat.rsrc
+s389123953.667213
+e389123953.685426
+r1
+xResMergerCollector
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/SimpleFormat.rsrc
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16990)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16991)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16992)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16993)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16994)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16000)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'DLOG' ID 16000)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'dlgx' ID 16000)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'DITL' ID 16000)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'DITL' ID 16990)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'ALRT' ID 16990)
+ofile /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'vers' ID 1)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection177"Merge resources into /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/SimpleFormat.rsrc1ae0aa718f31b741^0378af718f31b741^-3680"file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16990)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16991)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16992)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16993)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16994)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'STR ' ID 16000)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'DLOG' ID 16000)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'dlgx' ID 16000)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'DITL' ID 16000)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'DITL' ID 16990)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'ALRT' ID 16990)file /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc: ### /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger - Warning: Duplicate resource (resType 'vers' ID 1)-0#0#0#--947"ResMergerCollector Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/SimpleFormat.rsrc    cd /Users/matthew/workspace/simpleformat/mac    /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger -dstIs DF /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormat-A69F02213383561.rsrc /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormatUI.rsrc /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/SimpleFormat.rsrc36"5CB4E1BB-4DF5-4CAA-8CC6-18BC3423BC9D-
+
+CResMergerProduct /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Resources/SimpleFormat.rsrc
+s389123953.692275
+e389123953.709461
+r1
+xResMergerProduct
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Resources/SimpleFormat.rsrc
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Merge resources into /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Resources/SimpleFormat.rsrc1b46b1718f31b741^0a9fb5718f31b741^---0#0#0#--503"ResMergerProduct Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Resources/SimpleFormat.rsrc    cd /Users/matthew/workspace/simpleformat/mac    /Applications/Xcode.app/Contents/Developer/usr/bin/ResMerger /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/SimpleFormat.rsrc -dstIs DF -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin/Contents/Resources/SimpleFormat.rsrc36"D7B1C760-5066-4B68-A876-2C71857C823F-
+
+CRez /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc ../../../common/resources/PIUtilities.r
+r0
+
+CRez /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc ../../photoshopsdk/pluginsdk/samplecode/common/resources/PIUtilities.r
+s389123953.528227
+e389123953.622155
+r1
+xRez
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc
+x../../photoshopsdk/pluginsdk/samplecode/common/resources/PIUtilities.r
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Rez ../../photoshopsdk/pluginsdk/samplecode/common/resources/PIUtilities.rd74b87718f31b741^bf459f718f31b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/resources/PIUtilities.r0000000000000000^1920"Rez Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc ../../photoshopsdk/pluginsdk/samplecode/common/resources/PIUtilities.r    cd /Users/matthew/workspace/simpleformat/mac    /Applications/Xcode.app/Contents/Developer/usr/bin/Rez -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/PIUtilities-434EE62FD5F33565.rsrc -d SystemSevenOrLater=1 -useDF -script Roman -arch x86_64 -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -i /Users/matthew/workspace/simpleformat/mac/../common -i /Users/matthew/workspace/simpleformat/mac -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/pica_sp -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/resources -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/photoshop -i /Developer/Headers/FlatCarbon -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/includes -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/includes/MachOMacrezXcode.h -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/resources/PIUtilities.r36"34D0FF41-9448-4301-AC5B-49FBB2E63A02-
+
+CRez /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormat-A69F02213383561.rsrc ../common/SimpleFormat.r
+s389123953.528217
+e389123953.660360
+r1
+xRez
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormat-A69F02213383561.rsrc
+x../common/SimpleFormat.r
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Rez ../common/SimpleFormat.r944b87718f31b741^910ca9718f31b741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.r0000000000000000^1875"Rez Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormat-A69F02213383561.rsrc ../common/SimpleFormat.r    cd /Users/matthew/workspace/simpleformat/mac    /Applications/Xcode.app/Contents/Developer/usr/bin/Rez -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormat-A69F02213383561.rsrc -d SystemSevenOrLater=1 -useDF -script Roman -arch x86_64 -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/resources -i /Users/matthew/workspace/simpleformat/mac -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/pica_sp -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/resources -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/photoshop -i /Developer/Headers/FlatCarbon -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/includes -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/includes/MachOMacrezXcode.h -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk /Users/matthew/workspace/simpleformat/mac/../common/SimpleFormat.r36"71B786D0-AD34-47F8-BBFD-C96633FD867B-
+
+CRez /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormatUI.rsrc SimpleFormatUI.r
+s389123953.528220
+e389123953.621077
+r1
+xRez
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormatUI.rsrc
+xSimpleFormatUI.r
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection20"Rez SimpleFormatUI.r624b87718f31b741^2aff9e718f31b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/matthew/workspace/simpleformat/mac/SimpleFormatUI.r0000000000000000^1841"Rez Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormatUI.rsrc SimpleFormatUI.r    cd /Users/matthew/workspace/simpleformat/mac    /Applications/Xcode.app/Contents/Developer/usr/bin/Rez -o /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/../../Objs/simpleformat.build/Debug/SimpleFormat.build/ResourceManagerResources/Objects/SimpleFormatUI.rsrc -d SystemSevenOrLater=1 -useDF -script Roman -arch x86_64 -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/resources -i /Users/matthew/workspace/simpleformat/mac/../common -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/pica_sp -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/resources -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/photoshopapi/photoshop -i /Developer/Headers/FlatCarbon -i /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/includes -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug -i /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -i /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Users/matthew/workspace/simpleformat/mac/../../photoshopsdk/pluginsdk/samplecode/common/includes/MachOMacrezXcode.h -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk /Users/matthew/workspace/simpleformat/mac/SimpleFormatUI.r36"F97E264A-79E3-4F4B-A348-5A7CF0783CEC-
+
+CTouch /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin
+s389123953.717512
+e389123953.727216
+r1
+xTouch
+x/Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugina262b8718f31b741^f52aba718f31b741^---0#0#0#--205"Touch Output/Mac/Debug/Debug/SimpleFormat.plugin    cd /Users/matthew/workspace/simpleformat/mac    /usr/bin/touch -c /Users/matthew/workspace/simpleformat/mac/Output/Mac/Debug/Debug/SimpleFormat.plugin36"FD670360-2F32-4B7B-887C-49F6141FDE48-
+
