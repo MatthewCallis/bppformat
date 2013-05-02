@@ -83,11 +83,11 @@ resource 'PiPL' (ResourceID, plugInName " PiPL", purgeable)
 		#endif
 
 		// ClassID, eventID, aete ID, uniqueString:
-		HasTerminology { plugInClassID, 
-		                 plugInEventID, 
-						 ResourceID, 
+		HasTerminology { plugInClassID,
+		                 plugInEventID,
+						 ResourceID,
 						 vendorName " " plugInName },
-		
+
 		SupportedModes
 		{
 			doesSupportBitmap, doesSupportGrayScale,
@@ -100,15 +100,13 @@ resource 'PiPL' (ResourceID, plugInName " PiPL", purgeable)
 		// If you want your format module always enabled.
 		EnableInfo { "true" },
 
-		// New for Photoshop 8, document sizes that are really big 
-		// 32 bit row and columns, 2,000,000 current limit but we can handle more
+		// New for Photoshop 8, document sizes that are really big 32 bit row and columns, 2,000,000 current limit but we can handle more
 		PlugInMaxSize { 2147483647, 2147483647 },
 
-		// For older Photoshops that only support 30000 pixel documents, 
-		// 16 bit row and columns
+		// For older Photoshops that only support 30000 pixel documents, 16 bit row and columns
 		FormatMaxSize { { 32767, 32767 } },
 
-		FormatMaxChannels { {   1, 24, 24, 24, 24, 24, 
+		FormatMaxChannels { {   1, 24, 24, 24, 24, 24,
 							   24, 24, 24, 24, 24, 24 } },
 
 		FmtFileType { 'BPP', '8BIM' },
@@ -117,11 +115,11 @@ resource 'PiPL' (ResourceID, plugInName " PiPL", purgeable)
 		ReadExtensions { { 'BPP' } },
 		WriteExtensions { { 'BPP' } },
 		FilteredExtensions { { 'BPP' } },
-		FormatFlags { fmtSavesImageResources, 
-		              fmtCanRead, 
-					  fmtCanWrite, 
-					  fmtCanWriteIfRead, 
-					  fmtCanWriteTransparency, 
+		FormatFlags { fmtSavesImageResources,
+		              fmtCanRead,
+					  fmtCanWrite,
+					  fmtCanWriteIfRead,
+					  fmtCanWriteTransparency,
 					  fmtCanCreateThumbnail },
 		FormatICCFlags { iccCannotEmbedGray,
 						 iccCanEmbedIndexed,
@@ -155,18 +153,19 @@ resource 'aete' (ResourceID, plugInName " dictionary", purgeable)
 				classFormat,								/* parent: Format, Import, Export */
 				"parent class format",						/* optional description */
 				flagsSingleProperty,						/* if properties, list below */
-							
+
 				"foo",
 				keyMyFoo,
 				typeBoolean,
 				"foobar",
 				flagsSingleProperty,
-				
+
 				"bar",
 				keyMyBar,
 				typeBoolean,
 				"foobar",
 				flagsSingleProperty
+
 				/* no properties */
 			},
 			{}, /* elements (not supported) */

@@ -82,7 +82,7 @@ Boolean ReadScriptParamsOnRead (void) {
   }
 
   returnValue = descParams->playInfo == plugInDialogDisplay;
-  /* return TRUE if want to show our Dialog */
+  // return TRUE if want to show our Dialog
 
   return returnValue;
 }

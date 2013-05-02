@@ -219,8 +219,7 @@ DLLExport MACPASCAL void PluginMain (const int16 selector, FormatRecordPtr forma
       //-----------------------------------------------------------------------
       //  (4) Dispatch selector.
       //-----------------------------------------------------------------------
-      switch (selector)
-      {
+      switch (selector) {
         case formatSelectorReadPrepare:
           DoReadPrepare();
           break;
@@ -294,7 +293,7 @@ DLLExport MACPASCAL void PluginMain (const int16 selector, FormatRecordPtr forma
 
   } // end try
 
-  catch(...) {
+  catch (...) {
     if (NULL != result) {
       *result = -1;
     }
@@ -318,8 +317,6 @@ static void InitData (void) {
   gData->needsSwap = false;
   gData->openAsSmartObject = false;
 }
-// end InitData
-
 
 //-------------------------------------------------------------------------------
 //
@@ -335,8 +332,7 @@ static void InitData (void) {
 //    HEADER_VER2 = This is my NEW header, it has 32 bit rows and columns
 //
 //-------------------------------------------------------------------------------
-static int CheckIdentifier (char identifier [])
-{
+static int CheckIdentifier (char identifier []) {
   if (identifier[3] != 'b' || identifier[4] != 'r' || identifier[5] != 'a' || identifier[6] != 'i' || identifier[7] != 'n') {
     return HEADER_CANT_READ;
   }
@@ -681,15 +677,16 @@ static void DoReadContinue (void) {
 
 /*****************************************************************************/
 
+// http://support.muse.adobe.com/thread/437948
 static void DoReadFinish (void) {
   // Test the ability to create the file inside a smart object.
   // This flag also tells you which menu item was selected.
 
   // If openAsSmartObject is already true then you cannot turn it off
-  gFormatRecord->openAsSmartObject = gData->openAsSmartObject;
+  // gFormatRecord->openAsSmartObject = gData->openAsSmartObject;
 
   // Every other time we open as smart, that should be confusing enough for a user!
-  gData->openAsSmartObject = !gData->openAsSmartObject;
+  // gData->openAsSmartObject = !gData->openAsSmartObject;
 
   // Dispose of the image resource data if it exists.
   DisposeImageResources ();
@@ -809,47 +806,47 @@ static void DoWriteStart (void) {
   if (gFormatRecord->imageRsrcData) {
     header.resourceLength = gFormatRecord->imageRsrcSize;
   }
-  else {
-    header.resourceLength = 0;
-    WriteSome (sizeof (FileHeader), &header);
-  }
+  // else {
+  //   header.resourceLength = 0;
+  //   WriteSome (sizeof (FileHeader), &header);
+  // }
 
   if (*gResult != noErr) {
     return;
   }
 
   // Write the image resources if any.
-  if (header.resourceLength > 0) {
-    Boolean oldLock = FALSE;
-    Ptr p = NULL;
-    sPSHandle->SetLock(gFormatRecord->imageRsrcData, true, &p, &oldLock);
-    if (p != NULL) {
-      vector<ResourceInfo *> resources;
-      CreateResourceInfoVector(header.resourceLength, reinterpret_cast<uint8 *>(p), resources);
-      // see if the user wants to remove some resources
-      if (showDialog && DoUI(resources)) {
-        header.resourceLength = RemoveResources(header.resourceLength, resources, reinterpret_cast<uint8 *>(p));
-      }
-      DeleteResourceInfoVector(resources);
+  // if (header.resourceLength > 0) {
+  //   Boolean oldLock = FALSE;
+  //   Ptr p = NULL;
+  //   sPSHandle->SetLock(gFormatRecord->imageRsrcData, true, &p, &oldLock);
+  //   if (p != NULL) {
+  //     vector<ResourceInfo *> resources;
+  //     CreateResourceInfoVector(header.resourceLength, reinterpret_cast<uint8 *>(p), resources);
+  //     // see if the user wants to remove some resources
+  //     if (showDialog && DoUI(resources)) {
+  //       header.resourceLength = RemoveResources(header.resourceLength, resources, reinterpret_cast<uint8 *>(p));
+  //     }
+  //     DeleteResourceInfoVector(resources);
 
-      WriteSome (sizeof (FileHeader), &header);
-      WriteSome (header.resourceLength, p);
-      sPSHandle->SetLock(gFormatRecord->imageRsrcData, false, &p, &oldLock);
-    }
+  //     WriteSome (sizeof (FileHeader), &header);
+  //     WriteSome (header.resourceLength, p);
+  //     sPSHandle->SetLock(gFormatRecord->imageRsrcData, false, &p, &oldLock);
+  //   }
 
-    if (*gResult != noErr) {
-      return;
-    }
-  }
+  //   if (*gResult != noErr) {
+  //     return;
+  //   }
+  // }
 
   // Write the lookup tables if appropriate.
-  if (header.mode == plugInModeIndexedColor) {
-    WriteSome (3 * sizeof (LookUpTable), &gFormatRecord->redLUT);
+  // if (header.mode == plugInModeIndexedColor) {
+  //   WriteSome (3 * sizeof (LookUpTable), &gFormatRecord->redLUT);
 
-    if (*gResult != noErr) {
-      return;
-    }
-  }
+  //   if (*gResult != noErr) {
+  //     return;
+  //   }
+  // }
 
   // Set up the progress variables.
   done = 0;
@@ -898,7 +895,7 @@ static void DoWriteStart (void) {
 
   sPSBuffer->Dispose(&pixelData);
 
-  DoWriteICCProfile ();
+  // DoWriteICCProfile();
 }
 
 /*****************************************************************************/
@@ -945,7 +942,7 @@ static void DoFilterFile (void) {
 // This routine adds a history entry with the current system date and time to the file when incoming.
 static void AddComment (void) {
   time_t ltime;
-  time( &ltime);
+  time(&ltime);
 
   string currentTime = ctime(&ltime);
 
@@ -967,7 +964,6 @@ static void AddComment (void) {
     sPSHandle->Dispose(h);
   }
 }
-// end AddComment
 
 /**************************************************************************/
 static void DoReadICCProfile(void) {
@@ -1008,24 +1004,32 @@ static void DoWriteICCProfile(void) {
 static VPoint GetFormatImageSize(void) {
   VPoint returnPoint = { 0, 0 };
   if (gFormatRecord->HostSupports32BitCoordinates && gFormatRecord->PluginUsing32BitCoordinates) {
-    returnPoint.v = gFormatRecord->imageSize32.v;
-    returnPoint.h = gFormatRecord->imageSize32.h;
+    // returnPoint.v = gFormatRecord->imageSize32.v;
+    // returnPoint.h = gFormatRecord->imageSize32.h;
+    returnPoint.v = 128;
+    returnPoint.h = 128;
   }
   else {
-    returnPoint.v = gFormatRecord->imageSize.v;
-    returnPoint.h = gFormatRecord->imageSize.h;
+    // returnPoint.v = gFormatRecord->imageSize.v;
+    // returnPoint.h = gFormatRecord->imageSize.h;
+    returnPoint.v = 128;
+    returnPoint.h = 128;
   }
   return returnPoint;
 }
 
 static void SetFormatImageSize(VPoint inPoint) {
   if (gFormatRecord->HostSupports32BitCoordinates && gFormatRecord->PluginUsing32BitCoordinates) {
-    gFormatRecord->imageSize32.v = inPoint.v;
-    gFormatRecord->imageSize32.h = inPoint.h;
+    // gFormatRecord->imageSize32.v = inPoint.v;
+    // gFormatRecord->imageSize32.h = inPoint.h;
+    gFormatRecord->imageSize32.v = 128;
+    gFormatRecord->imageSize32.h = 128;
   }
   else {
-    gFormatRecord->imageSize.v = static_cast<int16>(inPoint.v);
-    gFormatRecord->imageSize.h = static_cast<int16>(inPoint.h);
+    // gFormatRecord->imageSize.v = static_cast<int16>(inPoint.v);
+    // gFormatRecord->imageSize.h = static_cast<int16>(inPoint.h);
+    gFormatRecord->imageSize.v = 128;
+    gFormatRecord->imageSize.h = 128;
   }
 }
 
@@ -1048,8 +1052,7 @@ static void SetFormatTheRect(VRect inRect) {
 //
 // CreateDataHandle
 //
-// Create a handle to our Data structure. Photoshop will take ownership of this
-// handle and delete it when necessary.
+// Create a handle to our Data structure. Photoshop will take ownership of this handle and delete it when necessary.
 //-------------------------------------------------------------------------------
 static void CreateDataHandle(void) {
   Handle h = sPSHandle->New(sizeof(Data));
