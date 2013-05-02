@@ -1,4 +1,4 @@
-# BPP-Reader
+# BPPFormat
 
 This is a photoshop plug-in to read / write to various BPP (1BPP, 2BPP, 3BPP, 4BPP, 8BPP) formats used by various video game systems (GB, NES, SNES).
 
@@ -8,7 +8,7 @@ This expects the project folder to live next to the [photoshopsdk](http://www.ad
 
 ```
 ~/photoshopsdk
-~/bppreader
+~/bppformat
 ```
 
 ### Fixing the SDK
