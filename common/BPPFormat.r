@@ -31,7 +31,7 @@
 #define plugInAETEComment 	"bppformat file format module"
 
 #define plugInSuiteID		'sdK4'
-#define plugInClassID		'simP'
+#define plugInClassID		'bppF'
 #define plugInEventID		typeNull // must be this
 
 //-------------------------------------------------------------------------------
@@ -96,8 +96,8 @@ resource 'PiPL' (ResourceID, plugInName " PiPL", purgeable)
 			doesSupportHSBColor, doesSupportMultichannel,
 			doesSupportDuotone, doesSupportLABColor
 		},
-		
-		// If you want your format module always enabled.	
+
+		// If you want your format module always enabled.
 		EnableInfo { "true" },
 
 		// New for Photoshop 8, document sizes that are really big 
@@ -110,13 +110,13 @@ resource 'PiPL' (ResourceID, plugInName " PiPL", purgeable)
 
 		FormatMaxChannels { {   1, 24, 24, 24, 24, 24, 
 							   24, 24, 24, 24, 24, 24 } },
-	
-		FmtFileType { 'SME ', '8BIM' },
+
+		FmtFileType { 'BPP', '8BIM' },
 		//ReadTypes { { '8B1F', '    ' } },
 		FilteredTypes { { '8B1F', '    ' } },
-		ReadExtensions { { 'SME ' } },
-		WriteExtensions { { 'SME ' } },
-		FilteredExtensions { { 'SME ' } },
+		ReadExtensions { { 'BPP' } },
+		WriteExtensions { { 'BPP' } },
+		FilteredExtensions { { 'BPP' } },
 		FormatFlags { fmtSavesImageResources, 
 		              fmtCanRead, 
 					  fmtCanWrite, 
