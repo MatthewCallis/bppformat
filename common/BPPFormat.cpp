@@ -514,8 +514,7 @@ static void DoReadStart (void) {
       Swap(header.resourceLength);
     }
 
-    if (header.testendian != TESTENDIAN)
-    {
+    if (header.testendian != TESTENDIAN) {
       *gResult = formatCannotRead;
       return;
     }
