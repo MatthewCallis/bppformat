@@ -1,6 +1,6 @@
 // Microsoft Visual C++ generated resource script.
 //
-#include "simpleformat-sym.h"
+#include "bppformat-sym.h"
 
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
@@ -14,7 +14,7 @@
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
-#define PLUGINNAME "Simple Format Sample Plug-In"
+#define PLUGINNAME "BPPFormat Plug-In"
 
 /////////////////////////////////////////////////////////////////////////////
 // English (U.S.) resources
@@ -33,7 +33,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 1 TEXTINCLUDE 
 BEGIN
-    "simpleformat-sym.h\0"
+    "bppformat-sym.h\0"
 END
 
 2 TEXTINCLUDE 
@@ -46,7 +46,7 @@ END
 
 3 TEXTINCLUDE 
 BEGIN
-    "#include ""SimpleFormat.pipl""\r\n"
+    "#include ""BPPFormat.pipl""\r\n"
     "#include ""About.rc""\r\n"
 END
 
@@ -60,7 +60,7 @@ END
 
 16050 DIALOGEX 0, 0, 296, 137
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "Simple Format Resource Remover"
+CAPTION "BPPFormat Resource Remover"
 FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     DEFPUSHBUTTON   "&OK",1,239,7,50,14
@@ -90,7 +90,7 @@ END
 //
 // Generated from the TEXTINCLUDE 3 resource.
 //
-#include "SimpleFormat.pipl"
+#include "BPPFormat.pipl"
 #include "About.rc"
 
 /////////////////////////////////////////////////////////////////////////////

@@ -1,26 +1,12 @@
-// ADOBE SYSTEMS INCORPORATED
-// Copyright  1993 - 2002 Adobe Systems Incorporated
-// All Rights Reserved
-//
-// NOTICE:  Adobe permits you to use, modify, and distribute this 
-// file in accordance with the terms of the Adobe license agreement
-// accompanying it.  If you have received this file from a source
-// other than Adobe, then your use, modification, or distribution
-// of it requires the prior written permission of Adobe.
-//-------------------------------------------------------------------
-//-------------------------------------------------------------------------------
-//
 //	File:
-//		SimpleFormat.r
+//		BPPFormat.r
 //
 //	Description:
-//		This file contains the resource definitions for the
-//		File Format module SimpleFormat, 
+//		This file contains the resource definitions for the File Format module BPPFormat,
 //		which writes a flat file with merged document pixels.
 //
 //	Use:
-//		Format modules are called from the Save, Save as,
-//		and Save a copy dialogs.
+//		Format modules are called from the Save, Save as, and Save a copy dialogs.
 //
 //-------------------------------------------------------------------------------
 
@@ -31,10 +17,9 @@
 // The About box and resources are created in PIUtilities.r.
 // You can easily override them, if you like.
 
-#define plugInName			"SimpleFormat"
-#define plugInCopyrightYear	"1993"
-#define plugInDescription \
-	"An example plug-in file format module for Adobe Photoshop¨."
+#define plugInName			"BPPFormat"
+#define plugInCopyrightYear	"2013"
+#define plugInDescription 	"Read / Write 1/2/3/4/8BPP video game file formats."
 
 //-------------------------------------------------------------------------------
 //	Definitions -- Required by other resources in this rez file.
@@ -43,7 +28,7 @@
 // Dictionary (aete) resources:
 
 #define vendorName			"AdobeSDK"
-#define plugInAETEComment 	"simpleformat example file format module"
+#define plugInAETEComment 	"bppformat file format module"
 
 #define plugInSuiteID		'sdK4'
 #define plugInClassID		'simP'
@@ -69,7 +54,7 @@
 #include "PITerminology.h"
 #include "PIActions.h"
 
-#include "SimpleFormatTerminology.h"	// Terminology for plug-in.
+#include "BPPFormatTerminology.h"	// Terminology for plug-in.
 
 //-------------------------------------------------------------------------------
 //	PiPL resource
@@ -161,7 +146,7 @@ resource 'aete' (ResourceID, plugInName " dictionary", purgeable)
 		1,													/* suite level, must be 1 */
 		{},													/* structure for filters */
 		{													/* non-filter plug-in class here */
-			vendorName " simpleFormat",						/* unique class name */
+			vendorName " bppFormat",						/* unique class name */
 			plugInClassID,									/* class ID, must be unique or Suite ID */
 			plugInAETEComment,								/* optional description */
 			{												/* define inheritance */
@@ -203,4 +188,4 @@ resource StringResource (kHistoryEntry, "History", purgeable)
 
 //-------------------------------------------------------------------------------
 
-// end SimpleFormat.r
+// end BPPFormat.r

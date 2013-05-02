@@ -19,13 +19,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Common\SimpleFormat.cpp">
+    <ClCompile Include="..\Common\BPPFormat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Common\SimpleFormatScripting.cpp">
+    <ClCompile Include="..\Common\BPPFormatScripting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\common\SimpleFormatUI.cpp">
+    <ClCompile Include="..\common\BPPFormatUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\common\sources\DialogUtilitiesWin.cpp">
@@ -54,20 +54,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Common\SimpleFormat.h">
+    <ClInclude Include="..\Common\BPPFormat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Common\SimpleFormatTerminology.h">
+    <ClInclude Include="..\Common\BPPFormatTerminology.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SimpleFormat.rc">
+    <ResourceCompile Include="BPPFormat.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Common\SimpleFormat.r">
+    <CustomBuild Include="..\Common\BPPFormat.r">
       <Filter>Resource Files</Filter>
     </CustomBuild>
   </ItemGroup>

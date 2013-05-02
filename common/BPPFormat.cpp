@@ -1,26 +1,12 @@
-// ADOBE SYSTEMS INCORPORATED
-// Copyright  1993 - 2002 Adobe Systems Incorporated
-// All Rights Reserved
-//
-// NOTICE:  Adobe permits you to use, modify, and distribute this
-// file in accordance with the terms of the Adobe license agreement
-// accompanying it.  If you have received this file from a source
-// other than Adobe, then your use, modification, or distribution
-// of it requires the prior written permission of Adobe.
-//-------------------------------------------------------------------
-//-------------------------------------------------------------------------------
-//
 //  File:
-//    SimpleFormat.h
+//    BPPFormat.h
 //
 //  Description:
-//    This file contains the header prototypes and macros for the
-//    File Format module SimpleFormat,
+//    This file contains the header prototypes and macros for the File Format module BPPFormat,
 //    which writes a flat file with merged document pixels.
 //
 //  Use:
-//    Format modules are called from the Save, Save as,
-//    and Save a copy dialogs.
+//    Format modules are called from the Save, Save as, and Save a copy dialogs.
 //
 //-------------------------------------------------------------------------------
 
@@ -30,7 +16,7 @@
 #include <vector>
 #include <sstream>
 #include <time.h>
-#include "SimpleFormat.h"
+#include "BPPFormat.h"
 #include "PIUI.h"
 
 DLLExport MACPASCAL void PluginMain (const int16 selector, FormatRecordPtr formatParamBlock, intptr_t * data, int16 * result);
@@ -1269,4 +1255,4 @@ bool DoUI (vector<ResourceInfo *> & rInfos) {
 }
 void DoAbout(SPPluginRef plugin, int dialogID) {}
 #endif
-// end SimpleFormat.cpp
+// end BPPFormat.cpp

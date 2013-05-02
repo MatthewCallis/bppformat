@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64126BED09F97603006DF4E6 /* SimpleFormatScripting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64126BE709F97603006DF4E6 /* SimpleFormatScripting.cpp */; };
-		64126BEE09F97603006DF4E6 /* SimpleFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64126BEA09F97603006DF4E6 /* SimpleFormat.cpp */; };
-		64126BFE09F9774A006DF4E6 /* SimpleFormat.r in Rez */ = {isa = PBXBuildFile; fileRef = 64126BE809F97603006DF4E6 /* SimpleFormat.r */; };
-		64126BFF09F9774D006DF4E6 /* SimpleFormatUI.r in Rez */ = {isa = PBXBuildFile; fileRef = 64126BE509F975F5006DF4E6 /* SimpleFormatUI.r */; };
+		64126BED09F97603006DF4E6 /* BPPFormatScripting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64126BE709F97603006DF4E6 /* BPPFormatScripting.cpp */; };
+		64126BEE09F97603006DF4E6 /* BPPFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64126BEA09F97603006DF4E6 /* BPPFormat.cpp */; };
+		64126BFE09F9774A006DF4E6 /* BPPFormat.r in Rez */ = {isa = PBXBuildFile; fileRef = 64126BE809F97603006DF4E6 /* BPPFormat.r */; };
+		64126BFF09F9774D006DF4E6 /* BPPFormatUI.r in Rez */ = {isa = PBXBuildFile; fileRef = 64126BE509F975F5006DF4E6 /* BPPFormatUI.r */; };
 		64126C0209F9775D006DF4E6 /* PIUtilities.r in Rez */ = {isa = PBXBuildFile; fileRef = 64126B9A09F97565006DF4E6 /* PIUtilities.r */; };
 		64126C2B09F979EA006DF4E6 /* PIUSuites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64126C2A09F979EA006DF4E6 /* PIUSuites.cpp */; };
 		64126C3509F97A19006DF4E6 /* PIUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64126C3409F97A19006DF4E6 /* PIUtilities.cpp */; };
@@ -531,13 +531,13 @@
 		64126B8E09F97565006DF4E6 /* PIUSuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIUSuites.h; sourceTree = "<group>"; };
 		64126B8F09F97565006DF4E6 /* PIUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PIUtilities.h; sourceTree = "<group>"; };
 		64126B9A09F97565006DF4E6 /* PIUtilities.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = PIUtilities.r; sourceTree = "<group>"; };
-		64126BE509F975F5006DF4E6 /* SimpleFormatUI.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = SimpleFormatUI.r; sourceTree = "<group>"; };
-		64126BE609F97603006DF4E6 /* SimpleFormatUI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleFormatUI.cpp; path = ../common/SimpleFormatUI.cpp; sourceTree = SOURCE_ROOT; };
-		64126BE709F97603006DF4E6 /* SimpleFormatScripting.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleFormatScripting.cpp; path = ../common/SimpleFormatScripting.cpp; sourceTree = SOURCE_ROOT; };
-		64126BE809F97603006DF4E6 /* SimpleFormat.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = SimpleFormat.r; path = ../common/SimpleFormat.r; sourceTree = SOURCE_ROOT; };
-		64126BE909F97603006DF4E6 /* SimpleFormatTerminology.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SimpleFormatTerminology.h; path = ../common/SimpleFormatTerminology.h; sourceTree = SOURCE_ROOT; };
-		64126BEA09F97603006DF4E6 /* SimpleFormat.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleFormat.cpp; path = ../common/SimpleFormat.cpp; sourceTree = SOURCE_ROOT; };
-		64126BEB09F97603006DF4E6 /* SimpleFormat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SimpleFormat.h; path = ../common/SimpleFormat.h; sourceTree = SOURCE_ROOT; };
+		64126BE509F975F5006DF4E6 /* BPPFormatUI.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = BPPFormatUI.r; sourceTree = "<group>"; };
+		64126BE609F97603006DF4E6 /* BPPFormatUI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = BPPFormatUI.cpp; path = ../common/BPPFormatUI.cpp; sourceTree = SOURCE_ROOT; };
+		64126BE709F97603006DF4E6 /* BPPFormatScripting.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = BPPFormatScripting.cpp; path = ../common/BPPFormatScripting.cpp; sourceTree = SOURCE_ROOT; };
+		64126BE809F97603006DF4E6 /* BPPFormat.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = BPPFormat.r; path = ../common/BPPFormat.r; sourceTree = SOURCE_ROOT; };
+		64126BE909F97603006DF4E6 /* BPPFormatTerminology.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BPPFormatTerminology.h; path = ../common/BPPFormatTerminology.h; sourceTree = SOURCE_ROOT; };
+		64126BEA09F97603006DF4E6 /* BPPFormat.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = BPPFormat.cpp; path = ../common/BPPFormat.cpp; sourceTree = SOURCE_ROOT; };
+		64126BEB09F97603006DF4E6 /* BPPFormat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BPPFormat.h; path = ../common/BPPFormat.h; sourceTree = SOURCE_ROOT; };
 		64126C2509F979E1006DF4E6 /* PIMacUI.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = PIMacUI.cpp; sourceTree = "<group>"; };
 		64126C2A09F979EA006DF4E6 /* PIUSuites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = PIUSuites.cpp; sourceTree = "<group>"; };
 		64126C2F09F979F7006DF4E6 /* DialogUtilitiesMac.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = DialogUtilitiesMac.cpp; sourceTree = "<group>"; };
@@ -570,23 +570,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089C166AFE841209C02AAC07 /* SimpleFormat */ = {
+		089C166AFE841209C02AAC07 /* BPPFormat */ = {
 			isa = PBXGroup;
 			children = (
-				64126BEB09F97603006DF4E6 /* SimpleFormat.h */,
-				64126BEA09F97603006DF4E6 /* SimpleFormat.cpp */,
-				64126BE609F97603006DF4E6 /* SimpleFormatUI.cpp */,
-				64126BE909F97603006DF4E6 /* SimpleFormatTerminology.h */,
-				64126BE709F97603006DF4E6 /* SimpleFormatScripting.cpp */,
-				64126BE809F97603006DF4E6 /* SimpleFormat.r */,
-				64126BE509F975F5006DF4E6 /* SimpleFormatUI.r */,
+				64126BEB09F97603006DF4E6 /* BPPFormat.h */,
+				64126BEA09F97603006DF4E6 /* BPPFormat.cpp */,
+				64126BE609F97603006DF4E6 /* BPPFormatUI.cpp */,
+				64126BE909F97603006DF4E6 /* BPPFormatTerminology.h */,
+				64126BE709F97603006DF4E6 /* BPPFormatScripting.cpp */,
+				64126BE809F97603006DF4E6 /* BPPFormat.r */,
+				64126BE509F975F5006DF4E6 /* BPPFormatUI.r */,
 				64126B7009F97565006DF4E6 /* SDK common */,
 				64126AD309F9751C006DF4E6 /* Photoshop common */,
 				6412691709F974D9006DF4E6 /* Mac OS common */,
 				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
 			);
-			name = SimpleFormat;
+			name = BPPFormat;
 			sourceTree = "<group>";
 		};
 		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
@@ -1217,7 +1217,7 @@
 			);
 			name = BPPFormat;
 			productInstallPath = "$(HOME)/Library/Bundles";
-			productName = SimpleFormat;
+			productName = BPPFormat;
 			productReference = 8D01CCD20486CAD60068D4B7 /* BPPFormat.plugin */;
 			productType = "com.apple.product-type.bundle";
 		};
@@ -1239,7 +1239,7 @@
 				French,
 				German,
 			);
-			mainGroup = 089C166AFE841209C02AAC07 /* SimpleFormat */;
+			mainGroup = 089C166AFE841209C02AAC07 /* BPPFormat */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1263,8 +1263,8 @@
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64126BFE09F9774A006DF4E6 /* SimpleFormat.r in Rez */,
-				64126BFF09F9774D006DF4E6 /* SimpleFormatUI.r in Rez */,
+				64126BFE09F9774A006DF4E6 /* BPPFormat.r in Rez */,
+				64126BFF09F9774D006DF4E6 /* BPPFormatUI.r in Rez */,
 				64126C0209F9775D006DF4E6 /* PIUtilities.r in Rez */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1276,8 +1276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64126BED09F97603006DF4E6 /* SimpleFormatScripting.cpp in Sources */,
-				64126BEE09F97603006DF4E6 /* SimpleFormat.cpp in Sources */,
+				64126BED09F97603006DF4E6 /* BPPFormatScripting.cpp in Sources */,
+				64126BEE09F97603006DF4E6 /* BPPFormat.cpp in Sources */,
 				64126C2B09F979EA006DF4E6 /* PIUSuites.cpp in Sources */,
 				64126C3509F97A19006DF4E6 /* PIUtilities.cpp in Sources */,
 				6493F375110E7F3700B0E165 /* FileUtilitiesMac.cpp in Sources */,

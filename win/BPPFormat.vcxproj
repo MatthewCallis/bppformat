@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{73C59F9A-C645-4EE5-8F00-AB4332011062}</ProjectGuid>
-    <RootNamespace>SimpleFormat</RootNamespace>
+    <RootNamespace>BPPFormat</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -38,10 +38,10 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\Output\Win\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\Output\Objs\SimpleFormat\Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\Output\Objs\BPPFormat\Debug\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\Output\Win\Debug64\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\Output\Objs\SimpleFormat\Debug64\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\Output\Objs\BPPFormat\Debug64\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
@@ -58,7 +58,7 @@
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TargetEnvironment>Win32</TargetEnvironment>
-      <TypeLibraryName>.\..\..\..\Output\Objs\SimpleFormat\Debug/SimpleFormat.tlb</TypeLibraryName>
+      <TypeLibraryName>.\..\..\..\Output\Objs\BPPFormat\Debug/BPPFormat.tlb</TypeLibraryName>
       <HeaderFileName>
       </HeaderFileName>
     </Midl>
@@ -70,9 +70,9 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
-      <AssemblerListingLocation>.\..\..\..\Output\Objs\SimpleFormat\Debug/</AssemblerListingLocation>
-      <ObjectFileName>.\..\..\..\Output\Objs\SimpleFormat\Debug/</ObjectFileName>
-      <ProgramDataBaseFileName>.\..\..\..\Output\Objs\SimpleFormat\Debug/</ProgramDataBaseFileName>
+      <AssemblerListingLocation>.\..\..\..\Output\Objs\BPPFormat\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\Output\Objs\BPPFormat\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\Output\Objs\BPPFormat\Debug/</ProgramDataBaseFileName>
       <BrowseInformation>true</BrowseInformation>
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -86,16 +86,16 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\..\..\Output\Win\Debug\SimpleFormat.8bi</OutputFile>
+      <OutputFile>..\..\..\Output\Win\Debug\BPPFormat.8bi</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\Common;..\..\..\Common\Headers\Photoshop;..\..\..\Common\Headers\Photoshop\AS;..\..\..\Common\Headers\Photoshop\PICA;..\..\..\Common\Headers\Photoshop\PS-Suites;..\..\..\Common\Headers\SDK;..\..\..\Common\Rez-files\Photoshop;..\..\..\Common\Rez-files\SDK;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>.\..\..\..\Output\Objs\SimpleFormat\Debug/SimpleFormat.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>.\..\..\..\Output\Objs\BPPFormat\Debug/BPPFormat.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <ImportLibrary>.\..\..\..\Output\Objs\SimpleFormat\Debug/SimpleFormat.lib</ImportLibrary>
+      <ImportLibrary>.\..\..\..\Output\Objs\BPPFormat\Debug/BPPFormat.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
@@ -105,7 +105,7 @@
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TargetEnvironment>X64</TargetEnvironment>
-      <TypeLibraryName>.\..\..\..\Output\Objs\SimpleFormat\Debug/SimpleFormat.tlb</TypeLibraryName>
+      <TypeLibraryName>.\..\..\..\Output\Objs\BPPFormat\Debug/BPPFormat.tlb</TypeLibraryName>
       <HeaderFileName>
       </HeaderFileName>
     </Midl>
@@ -117,9 +117,9 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
-      <AssemblerListingLocation>.\..\..\..\Output\Objs\SimpleFormat\Debug64/</AssemblerListingLocation>
-      <ObjectFileName>.\..\..\..\Output\Objs\SimpleFormat\Debug64/</ObjectFileName>
-      <ProgramDataBaseFileName>.\..\..\..\Output\Objs\SimpleFormat\Debug64/</ProgramDataBaseFileName>
+      <AssemblerListingLocation>.\..\..\..\Output\Objs\BPPFormat\Debug64/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\Output\Objs\BPPFormat\Debug64/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\Output\Objs\BPPFormat\Debug64/</ProgramDataBaseFileName>
       <BrowseInformation>true</BrowseInformation>
       <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -133,21 +133,21 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;version.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\..\..\Output\Win\Debug64\SimpleFormat.8bi</OutputFile>
+      <OutputFile>..\..\..\Output\Win\Debug64\BPPFormat.8bi</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>..\Common;..\..\..\Common\Headers\Photoshop;..\..\..\Common\Headers\Photoshop\AS;..\..\..\Common\Headers\Photoshop\PICA;..\..\..\Common\Headers\Photoshop\PS-Suites;..\..\..\Common\Headers\SDK;..\..\..\Common\Rez-files\Photoshop;..\..\..\Common\Rez-files\SDK;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>.\..\..\..\Output\Objs\SimpleFormat\Debug64/SimpleFormat.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>.\..\..\..\Output\Objs\BPPFormat\Debug64/BPPFormat.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <ImportLibrary>.\..\..\..\Output\Objs\SimpleFormat\Debug64/SimpleFormat.lib</ImportLibrary>
+      <ImportLibrary>.\..\..\..\Output\Objs\BPPFormat\Debug64/BPPFormat.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Common\SimpleFormat.cpp">
+    <ClCompile Include="..\Common\BPPFormat.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ISOLATION_AWARE_ENABLED=1;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;WIN32=1;_WINDOWS</PreprocessorDefinitions>
@@ -157,7 +157,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ISOLATION_AWARE_ENABLED=1;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;WIN32=1;_WINDOWS</PreprocessorDefinitions>
       <BrowseInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BrowseInformation>
     </ClCompile>
-    <ClCompile Include="..\Common\SimpleFormatScripting.cpp">
+    <ClCompile Include="..\Common\BPPFormatScripting.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ISOLATION_AWARE_ENABLED=1;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;WIN32=1;_WINDOWS</PreprocessorDefinitions>
@@ -167,7 +167,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ISOLATION_AWARE_ENABLED=1;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;WIN32=1;_WINDOWS</PreprocessorDefinitions>
       <BrowseInformation Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BrowseInformation>
     </ClCompile>
-    <ClCompile Include="..\common\SimpleFormatUI.cpp">
+    <ClCompile Include="..\common\BPPFormatUI.cpp">
       <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ISOLATION_AWARE_ENABLED=1;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;WIN32=1;_WINDOWS</PreprocessorDefinitions>
@@ -232,11 +232,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Common\SimpleFormat.h" />
-    <ClInclude Include="..\Common\SimpleFormatTerminology.h" />
+    <ClInclude Include="..\Common\BPPFormat.h" />
+    <ClInclude Include="..\Common\BPPFormatTerminology.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\Common\SimpleFormat.r">
+    <CustomBuild Include="..\Common\BPPFormat.r">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Compiling PiPL resource...</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cl /I..\..\..\..\PhotoshopAPI\PICA_SP /I..\..\..\..\PhotoshopAPI\Photoshop   /I..\..\..\..\PhotoshopAPI\Resources     /I..\..\..\Common\Resources    /I..\..\..\Common\Includes /EP /DMSWindows=1 /Tc"%(FullPath)" &gt;     "$(IntDir)%(Filename).rr"
 ..\..\..\Resources\cnvtpipl "$(IntDir)%(Filename).rr" "$(IntDir)%(Filename).pipl"
@@ -252,11 +252,11 @@ del "$(IntDir)%(Filename).rr"
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SimpleFormat.rc">
+    <ResourceCompile Include="BPPFormat.rc">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Common;..\..\..\common\resources;..\..\..\Output\Objs\SimpleFormat\Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Common;..\..\..\common\resources;..\..\..\Output\Objs\BPPFormat\Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Common;..\..\..\common\resources;..\..\..\Output\Objs\SimpleFormat\Debug64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Common;..\..\..\common\resources;..\..\..\Output\Objs\BPPFormat\Debug64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
